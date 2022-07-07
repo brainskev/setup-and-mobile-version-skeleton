@@ -6,7 +6,7 @@ body {
 p#one {
   font-family: poppins, sans-serif;
   font-style: regular;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   align-content: center;
   vertical-align: top;
@@ -44,4 +44,10 @@ ul {
 
 li {
   display: inline;
+  row-gap: 10px;
 }
+li i {
+  display: block;
+  float: right;
+}
+
