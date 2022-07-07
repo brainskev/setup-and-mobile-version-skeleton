@@ -2,6 +2,7 @@ body {
   background-image: url("images/shapes.png"), url("images/header.png");
   background-repeat: no-repeat, repeat;
 }
+
 p1 {
   font-family: poppins;
   font-style: regular;
@@ -10,6 +11,7 @@ p1 {
   align-content: center;
   vertical-align: top;
 }
+
 p2 {
   color: #7F8CFF;
   font-family: poppins;
@@ -21,6 +23,7 @@ p2 {
   order: 0;
   flex-grow: 0;
 }
+
 section.Headline {
  display: flex;
  flex-direction: column;
