@@ -46,8 +46,8 @@ li {
   display: inline;
   row-gap: 10px;
 }
+
 li i {
   display: block;
   float: right;
 }
-
