@@ -3,8 +3,8 @@ body {
   background-repeat: no-repeat, repeat;
 }
 
-#p1 {
-  font-family: poppins;
+p1 {
+  font-family: poppins,sans-serif;
   font-style: regular;
   font-size: 20px;
   line-height: 28px;
@@ -12,9 +12,9 @@ body {
   vertical-align: top;
 }
 
-#p2 {
-  color: #7F8cff;
-  font-family: poppins;
+p2 {
+  color: #7f8cff;
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -44,4 +44,4 @@ ul {
 
 li {
   display: inline;
-} 
+}
