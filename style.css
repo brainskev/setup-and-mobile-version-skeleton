@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat, repeat;
 }
 
-.p1 {
+p#one {
   font-family: poppins, sans-serif;
   font-style: regular;
   font-size: 20px;
@@ -12,7 +12,7 @@ body {
   vertical-align: top;
 }
 
-.p2 {
+p#two {
   color: #7f8cff;
   font-family: poppins, sans-serif;
   font-style: normal;
