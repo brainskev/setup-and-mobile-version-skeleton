@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: poppins;
+  font-family: poppins,sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -49,7 +49,7 @@ section.Headline {
   top: 92px;
 }
 
-li{
+li {
   display: inline;
 }
 
@@ -58,7 +58,7 @@ li i {
 }
 
 li a {
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-style: bold;
   font-size: 18px;
   height: 74%;
