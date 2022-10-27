@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
 body {
-  background-image: url("images/shapes.png"), url("images/header.png");
+  background: url("images/shapes.png") 0.1em 7em, url("images/header.png");
   background-repeat: no-repeat, repeat;
 }
 
@@ -26,6 +27,7 @@ p#one {
 }
 
 p#two {
+  
   color: #7f8cff;
   font-family: poppins, sans-serif;
   font-style: normal;
@@ -35,6 +37,7 @@ p#two {
   flex: none;
   order: 0;
   flex-grow: 0;
+ 
 }
 
 section.Headline {
@@ -65,4 +68,42 @@ li a {
   text-align: center;
   vertical-align: center;
   color: #6070ff;
+}
+.menu li{
+  width: 3em;
+  height: 1em;
+  background: black;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+
+}
+.hamburger {
+  display: block;
+}
+.bar {
+  display: block;
+  height: 3px;
+  width: 20px;
+  background-color: #6070ff; 
+  margin: 3px; 
+}
+
+.icons > a {
+padding: 0 0.6em
+}
+
+.icons {
+  margin-left: -3em;
+}
+
+.menu a {
+color: #6070ff;
+font-weight: 700;
+margin-left: 1rem;
+font-size: 18px;
+text-decoration: none;
+
 }
