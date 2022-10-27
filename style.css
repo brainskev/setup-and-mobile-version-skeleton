@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-family: poppins, sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -27,7 +28,6 @@ p#one {
 }
 
 p#two {
-  
   color: #7f8cff;
   font-family: poppins, sans-serif;
   font-style: normal;
@@ -37,7 +37,6 @@ p#two {
   flex: none;
   order: 0;
   flex-grow: 0;
- 
 }
 
 section.Headline {
@@ -69,6 +68,7 @@ li a {
   vertical-align: center;
   color: #6070ff;
 }
+
 .menu li{
   width: 3em;
   height: 1em;
@@ -83,6 +83,7 @@ justify-content: space-between;
 .hamburger {
   display: block;
 }
+
 .bar {
   display: block;
   height: 3px;
@@ -105,5 +106,4 @@ font-weight: 700;
 margin-left: 1rem;
 font-size: 18px;
 text-decoration: none;
-
 }
