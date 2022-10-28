@@ -4,16 +4,7 @@ body {
   background-repeat: no-repeat, repeat;
 }
 
-h1 {
-  font-family: poppins, sans-serif;
-  font-style: normal; 
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-}
+
 
 p#one {
   width: 327px;
