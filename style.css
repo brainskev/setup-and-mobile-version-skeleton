@@ -16,6 +16,7 @@ h1 {
   color: #172b4d;
   position: relative;
   bottom: -35px;
+  margin-top: -4px;
 }
 
 p#one {
@@ -62,10 +63,9 @@ li i {
   float: right;
 }
 
-
 .menu li {
   width: 3em;
-  height: 1em;
+  height: -1em;
   background: black;
 }
 
@@ -98,8 +98,12 @@ li i {
   color: #6070ff;
   font-weight: 700;
   margin-left: 1rem;
+  line-height: 20px;
   font-size: 18px;
   text-decoration: none;
+  font-family: poppins;
+  font-style: normal;
+  
 }
 
 .social-media {
@@ -107,4 +111,8 @@ li i {
   flex-direction: column;
   position: relative;
   bottom: 40px;
+}
+
+.navigation {
+  margin-top: 45px;
 }
