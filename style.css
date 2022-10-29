@@ -209,3 +209,17 @@ li i {
   font-size: 17px;
   width: max-content;
 }
+
+.about {
+  box-sizing: border-box;
+  background: var(--clr-white);
+  border: 1px solid #f5f6f8;
+  width: auto;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 5rem;
+  box-shadow: 0 -10px 10px -10px rgba(83, 81, 81, 0.15);
+  margin: 5rem 0 0 0;
+  padding-bottom: 6rem;
+}
