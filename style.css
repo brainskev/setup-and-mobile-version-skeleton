@@ -145,8 +145,8 @@ li i {
 
 .card-block h2 {
   max-width: 400px;
-  font-size: 3.5rem;
-  line-height: 65px;
+  font-size: 32px;
+  line-height: 44px;
   font-weight: 700;
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
@@ -367,13 +367,19 @@ hr.solid {
   padding: 114px 24px;
 }
 
-h2.about-title {
+.about-title {
   position: static;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #091e42;
+  color: #172b4d;;
   margin-top: 0;
+  width: 327px;
+  height: 101px;
+  font-family: Poppins, sans-serif;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .card1 {
@@ -389,3 +395,20 @@ h2.about-title {
   box-shadow: 8px 8px 10px -10px rgb(209, 204, 204);
   margin-top: 750px;
 }
+
+.works-container {
+  display: grid;
+}
+
+p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
