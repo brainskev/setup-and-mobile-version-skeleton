@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat, repeat;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  color: #344563;
 }
 
 h1 {
@@ -197,17 +198,20 @@ li i {
 }
 
 .card-button {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 12px;
-  border: 1px solid var(--clr-purple);
+  font-family: Poppins, sans-serif;
   border-radius: 8px;
-  color: var(--clr-purple);
-  background-color: transparent;
-  letter-spacing: 0.03rem;
+  border: 1px solid #3d4ee4;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
   font-size: 17px;
-  width: max-content;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin-top: 30px;
 }
 
 .about {
@@ -346,4 +350,33 @@ hr.solid {
   list-style-type: none;
   width: 327px;
   height: 72px;
+}
+.about-btn {
+  font-family: Poppins, sans-serif;
+  border-radius: 8px;
+  border: 1px solid #3d4ee4;
+  width: max max-content;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.about-child {
+  margin: auto 4rem;
+  padding: 114px 24px;
+}
+h2.about-title {
+  position: static;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  margin-top: 0;
 }
