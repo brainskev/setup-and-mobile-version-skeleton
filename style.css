@@ -151,14 +151,6 @@ li i {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  margin: 0px;
-}
-
-.card-frame {
-  list-style: none;
-  color: var(--clr-para);
-  font-weight: 600;
-  margin-left: 0;
 }
 
 .frame > ul {
