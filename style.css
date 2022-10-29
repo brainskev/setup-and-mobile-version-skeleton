@@ -3,6 +3,8 @@
 body {
   background: url("images/shapes.png") 0.1em 7em, url("images/header.png");
   background-repeat: no-repeat, repeat;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 h1 {
@@ -86,7 +88,7 @@ li i {
   margin: 3px;
 }
 
-.icons > a {
+.icons>a {
   padding: 0 0.4em;
 }
 
@@ -114,4 +116,96 @@ li i {
 
 .navigation {
   margin-top: 45px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: var(--clr-white);
+  border: 1px solid #eaeff1;
+  border-bottom-left-radius: 5rem;
+  box-shadow: 0 10px 10px -10px rgba(83, 81, 81, 0.15);
+  position: relative;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: var(--clr-white);
+  border: 1px solid #dfe1e6;
+  padding: 1rem;
+  gap: 12px;
+  border-radius: 1rem;
+  margin: 2rem 2rem 0 2rem;
+  box-shadow: 8px 8px 10px -10px rgb(209, 204, 204);
+  margin-top: 800px;
+}
+
+.card-block h2 {
+  max-width: 400px;
+  font-size: 3.5rem;
+  line-height: 65px;
+  font-weight: 700;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin: 0px;
+}
+
+.card-frame .no-count {
+  list-style: none;
+  color: var(--clr-para);
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.card-frame li {
+  margin: 5px;
+  font-size: 14px;
+  color: #7a869a;
+}
+}
+
+.card-frame {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-tags {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.card-tags li {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  background-color: #ebebff;
+  color: var(--clr-purple);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+}
+
+.card-button {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid var(--clr-purple);
+  border-radius: 8px;
+  color: var(--clr-purple);
+  background-color: transparent;
+  letter-spacing: 0.03rem;
+  font-size: 17px;
+  width: max-content;
 }
