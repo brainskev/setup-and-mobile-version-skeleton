@@ -89,7 +89,7 @@ li i {
   margin: 3px;
 }
 
-.icons>a {
+.icons > a {
   padding: 0 0.4em;
 }
 
@@ -143,8 +143,6 @@ li i {
   box-shadow: 8px 8px 10px -10px rgb(209, 204, 204);
 }
 
-
-
 .card-block h2 {
   max-width: 400px;
   font-size: 3.5rem;
@@ -156,20 +154,19 @@ li i {
   margin: 0px;
 }
 
-.card-frame .no-count {
+.card-frame {
   list-style: none;
   color: var(--clr-para);
   font-weight: 600;
   margin-left: 0;
 }
 
-.frame>ul {
+.frame > ul {
   margin: 5px;
   font-size: 14px;
   color: #7a869a;
   list-style-type: circle;
 }
-
 
 .card-frame {
   display: flex;
@@ -232,7 +229,6 @@ li i {
   margin: 5rem 0 0 0;
   padding-bottom: 6rem;
 }
-
 
 .skills-list {
   display: flex;
