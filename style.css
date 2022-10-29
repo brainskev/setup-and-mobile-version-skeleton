@@ -372,7 +372,7 @@ hr.solid {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;;
+  color: #172b4d;
   margin-top: 0;
   width: 327px;
   height: 101px;
@@ -411,4 +411,3 @@ p {
   order: 1;
   flex-grow: 0;
 }
-
