@@ -178,7 +178,7 @@ li i {
 }
 
 .card-tags li {
-  display: flex;
+  float: inline-start;
   align-items: center;
   margin-right: 0.5rem;
   background-color: #ebebff;
