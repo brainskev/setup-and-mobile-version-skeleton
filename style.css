@@ -446,3 +446,15 @@ footer {
   font-weight: 700;
   padding-bottom: 0;
 }
+
+.contact-description {
+  font-family: "poppins", sans-serif;
+  width: 569px;
+  height: 102px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
