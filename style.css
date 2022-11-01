@@ -425,7 +425,7 @@ footer {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  background: #6070ff url("images/contact-form.png") 100% -20px no-repeat;
+  background: #6070ff url("images/cont-bgnd.png") 100% -20px no-repeat;
   background-size: 100%;
   background-size: contain;
   border-top-left-radius: 100px;
