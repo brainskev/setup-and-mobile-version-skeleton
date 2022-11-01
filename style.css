@@ -522,3 +522,9 @@ li textarea {
   background-color: white;
   margin-top: 30px;
 }
+
+button:hover {
+  background: #8f9afc;
+  color: white;
+  cursor: pointer;
+}
