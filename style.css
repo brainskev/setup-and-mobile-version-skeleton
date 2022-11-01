@@ -432,3 +432,17 @@ footer {
   padding-top: 114px;
   margin-bottom: 10px;
 }
+
+.contact-title {
+  display: flex;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  line-height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
