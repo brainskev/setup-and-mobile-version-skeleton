@@ -531,3 +531,17 @@ li textarea {
 .shape {
   order: 4;
 }
+
+.error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.error.active {
+  padding: 0.4em;
+}
