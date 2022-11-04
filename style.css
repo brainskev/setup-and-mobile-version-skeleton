@@ -854,10 +854,6 @@ footer {
   transition: all 0.35s ease-in;
 }
 
-.contact-description:hover {
-  transform: translate(7%);
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
