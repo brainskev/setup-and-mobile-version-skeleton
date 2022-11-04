@@ -34,7 +34,6 @@ a.logo {
   color: #6070ff;
   text-decoration: none;
   margin-left: 24px;
-  animation: rotateZ 5s;
 }
 
 @keyframes rotateZ {
