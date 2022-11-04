@@ -545,3 +545,13 @@ li textarea {
 .error.active {
   padding: 0.4em;
 }
+
+a.logo { 
+  animation: rotateZ 5s;
+
+}
+@keyframes rotateZ {
+  to {
+    transform: rotate(360deg);
+  }
+}
