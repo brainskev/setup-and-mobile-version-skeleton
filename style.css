@@ -34,6 +34,7 @@ a.logo {
   color: #6070ff;
   text-decoration: none;
   margin-left: 24px;
+  animation: rotateZ 5s;
 }
 
 @keyframes rotateZ {
@@ -852,6 +853,10 @@ footer {
   text-align: center;
   color: #ebebff;
   transition: all 0.35s ease-in;
+}
+
+.contact-description:hover {
+  transform: translate(7%);
 }
 
 .contact-form {
