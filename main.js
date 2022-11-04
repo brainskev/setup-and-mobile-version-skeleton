@@ -93,4 +93,3 @@ function cardsBuilder(card, index) {
 cards.forEach((card, index) => {
   cardsBuilder(card, index);
 });
-
