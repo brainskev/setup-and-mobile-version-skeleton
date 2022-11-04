@@ -17,13 +17,13 @@ window.addEventListener('scroll', () => {
 const cards = [
   {
     image: 'images/capstone_desktop.PNG',
-    title: 'Workshop',
+    title: 'Tonic',
     datas: {
-      author: 'SELMA',
-      role: 'Full Stack Dev',
-      year: '2022',
+      author: 'CANOPY',
+      role: 'Banck End Dev',
+      year: '2015',
     },
-    description: 'This is my first capstone project for module 1 of HTML/CSS, It is a workshop website buiLt for PyLadies Namibia',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     skills: ['html', 'css', 'javascript', 'GitHub'],
   },
   {
