@@ -189,6 +189,13 @@ li i {
   line-height: 16px;
   font-weight: 500;
   letter-spacing: 0.03rem;
+  animation: kenRotation 6s;
+}
+
+@keyframes kenRotation {
+  to {
+      transform: rotate(180deg);
+    }
 }
 
 .card-button {
