@@ -560,6 +560,7 @@ h2.title {
   background: url("images/abt-myself.png") no-repeat;
   background-size: 100%;
   border-top-right-radius: 80px;
+  padding: 142px;
 }
 
 .top {
@@ -957,7 +958,6 @@ button:active {
     padding-bottom: 2em;
     background-color: #fff;
     justify-content: space-between;
-    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
   }
 
   a.logo {
