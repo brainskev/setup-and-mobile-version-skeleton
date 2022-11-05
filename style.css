@@ -1089,7 +1089,7 @@ button:active {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 22px;
+    gap: 10px;
   }
 
   .card-works-2 {
@@ -1097,7 +1097,7 @@ button:active {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: flex-end;
-    gap: 22px;
+    gap: 10px;
   }
 
   .snapshotdesktop1 {
