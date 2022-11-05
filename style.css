@@ -555,3 +555,15 @@ a.logo {
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 768px) {
+  .card-button:hover,
+  .about-btn:hover {
+    animation: scale 0.5s;
+  }
+  @keyframes scale {
+    to{
+      transform: scale(1.3);
+    }
+  }
+}
