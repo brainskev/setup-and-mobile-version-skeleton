@@ -78,22 +78,7 @@ nav a {
   display: block;
 }
 
-.navigation nav {
-  position: fixed;
-  top: -120%;
-  width: 100%;
-  height: 100%;
-  background-color: #6070ff;
-  opacity: 0.9;
-}
-
-.fa-times::before,
-.fa-xmark::before {
-  content: "\f00d";
-  color: #fff
-}
-
-.navigation nav.nav-toogle {
+.navigation nav.nav-toggle {
   top: 0;
 }
 
