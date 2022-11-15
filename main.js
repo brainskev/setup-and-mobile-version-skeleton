@@ -93,3 +93,58 @@ function cardsBuilder(card, index) {
 cards.forEach((card, index) => {
   cardsBuilder(card, index);
 });
+
+const popupCards = [
+  {
+    title: 'Tonic',
+    datas: {
+      author: 'CANOPY',
+      role: 'Back End Dev',
+      year: '2015',
+    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot5.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
+  },
+  {
+    title: 'Multi-Post Stories',
+    datas: {
+      author: 'FACEBOOK',
+      role: 'Full Stack Dev',
+      year: '2015',
+    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot4.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
+  },
+  {
+    title: 'Facebook 360',
+    datas: {
+      author: 'FACEBOOK',
+      role: 'Full Stack Dev',
+      year: '2015',
+    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot1.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
+  },
+  {
+    title: 'Uber Navigation',
+    datas: {
+      author: 'Uber',
+      role: 'Lead Developer',
+      year: '2018',
+    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...........",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot2.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
+  },
+];
