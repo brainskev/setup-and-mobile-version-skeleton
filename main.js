@@ -16,6 +16,7 @@ window.addEventListener('scroll', () => {
 
 const cards = [
   {
+    id: 'cardone',
     image: 'images/capstone_desktop.PNG',
     title: 'Tonic',
     datas: {
@@ -27,6 +28,8 @@ const cards = [
     skills: ['html', 'css', 'javascript', 'GitHub'],
   },
   {
+   
+    id: 'cardtwo',
     image: 'images/snapshot4.png',
     title: 'Multi-Post Stories',
     datas: {
@@ -38,6 +41,7 @@ const cards = [
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
   },
   {
+    id: 'cardthree',
     image: 'images/snapshot1.png',
     title: 'Facebook 360',
     datas: {
@@ -49,6 +53,7 @@ const cards = [
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
   },
   {
+    id: 'cardfour',
     image: 'images/snapshot2.png',
     title: 'Uber Navigation',
     datas: {
@@ -64,7 +69,7 @@ const cards = [
 const works = document.querySelector('#Portfolio');
 function cardsBuilder(card, index) {
   const {
-    image, title, datas, description, skills,
+    id,image, title, datas, description, skills,
   } = card;
   const skillsHtml = skills.map(
     (s) => `<li class = "tag html-tag">${s}</li>`,
@@ -85,7 +90,7 @@ function cardsBuilder(card, index) {
       <ul class = "tags">
         ${skillsHtml}
       </ul>
-      <button class = "btn action"> See Project </button>
+      <button id= "${id}" class = "btn action"> See Project </button>
     </div>
   </div>
   `;
@@ -94,60 +99,6 @@ cards.forEach((card, index) => {
   cardsBuilder(card, index);
 });
 
-const cardpop = [
-  {
-    title: 'Tonic',
-    datas: {
-      author: 'CANOPY',
-      role: 'Back End Dev',
-      year: '2015',
-    },
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ......",
-    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
-    image: 'images/snapshot5.png',
-    liveLink: 'See live',
-    sourceLink: 'See Source',
-  },
-  {
-    title: 'Multi-Post Stories',
-    datas: {
-      author: 'FACEBOOK',
-      role: 'Full Stack Dev',
-      year: '2015',
-    },
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
-    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
-    image: 'images/snapshot4.png',
-    liveLink: 'See live',
-    sourceLink: 'See Source',
-  },
-  {
-    title: 'Facebook 360',
-    datas: {
-      author: 'FACEBOOK',
-      role: 'Full Stack Dev',
-      year: '2015',
-    },
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
-    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
-    image: 'images/snapshot1.png',
-    liveLink: 'See live',
-    sourceLink: 'See Source',
-  },
-  {
-    title: 'Uber Navigation',
-    datas: {
-      author: 'Uber',
-      role: 'Lead Developer',
-      year: '2018',
-    },
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...........",
-    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
-    image: 'images/snapshot2.png',
-    liveLink: 'See live',
-    sourceLink: 'See Source',
-  },
-];
 
 
 const popupCards = [
@@ -243,28 +194,29 @@ const popupCards = [
     },
   },
 ];
+
 const mainbody  = document.querySelector('body');
-const buttonOne = document.getElementById('cardOne')
+const buttonOne = document.getElementById('cardone')
 const btn = 'cardOne'
 
 buttonOne.addEventListener('click',()=>{
   const main = document.createElement('div');
-  main.className='main'
+  main.className='mainpopup';
   const popup = document.createElement('div');
   popupCards.forEach((object) => {
     console.log(object.id)
     if (btn === object.id) {
+      console.log(object.id)
       main.innerHTML = `<div id="${object.id}">
        <div class="pop-head">
          <h2 class="cardheading">
          <span class="closeBtn">&times</span>
          ${object.title}
          </h2>
-
        </div>
        <ul class="education">
          <li class="cano">
-           ${object.education[0]}"
+           ${object.education[0]}
          </li>
          <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
          <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
@@ -324,9 +276,11 @@ buttonOne.addEventListener('click',()=>{
     }
   }
   );
+  //load content onto main
   main.appendChild(popup);
   mainbody.appendChild(main);
 
+  //close button
   const close = document.querySelector('.closeBtn');
   close.addEventListener('click',()=>{
     mainbody.removeChild(main);
