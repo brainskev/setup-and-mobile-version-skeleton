@@ -100,189 +100,111 @@ cards.forEach((card, index) => {
 });
 
 
-
 const popupCards = [
   {
-    id: 'cardOne',
     title: 'Tonic',
-    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Microverse Module 02 Project: This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser",
-
-    technologies: ['html5', 'css3', 'javascript', 'React'],
-    technologies2: ['github', 'ruby', 'Bootstrap'],
-    image: {
-      mainImg: 'images/Nature.png',
-      counter: './images/Counter.png',
-      liveIcon: './images/see-live.png',
-      sourceIcon: './images/see-source.png',
+    datas: {
+      author: 'CANOPY',
+      role: 'Back End Dev',
+      year: '2015',
     },
-    butn1: 'See live',
-    butn2: 'See Source',
-    cancel: '&times;',
-    navigation: {
-      live: '#',
-      source: '#',
-    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot5.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
   },
-
   {
-    id: 'cardTwo',
     title: 'Multi-Post Stories',
-    education: ['FACEBOOK', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstrap'],
-    image: {
-      mainImg: 'images/desktop-2.png',
-      counter: './images/Counter.png',
-      liveIcon: './images/see-live.png',
-      sourceIcon: './images/see-source.png',
+    datas: {
+      author: 'FACEBOOK',
+      role: 'Full Stack Dev',
+      year: '2015',
     },
-    butn1: 'See live',
-    butn2: 'See Source',
-    cancel: '&times;',
-    navigation: {
-      live: ' https://brainskev.github.io/setup-and-mobile-version-skeleton/',
-      source: 'https://github.com/brainskev/setup-and-mobile-version-skeleton',
-    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot4.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
   },
-
   {
-    id: 'cardThree',
     title: 'Facebook 360',
-    education: ['CANOPY', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstrap'],
-    image: {
-      mainImg: 'images/desktop-middle.png',
-      counter: './images/Counter.png',
-      liveIcon: './images/see-live.png',
-      sourceIcon: './images/see-source.png',
+    datas: {
+      author: 'FACEBOOK',
+      role: 'Full Stack Dev',
+      year: '2015',
     },
-    butn1: 'See live',
-    butn2: 'See Source',
-    cancel: '&times;',
-    navigation: {
-      live: ' https://brainskev.github.io/setup-and-mobile-version-skeleton/',
-      source: 'https://github.com/brainskev/setup-and-mobile-version-skeleton',
-    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .......",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot1.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
   },
-
   {
-    id: 'cardfour',
     title: 'Uber Navigation',
-    education: ['Uber', '&nbsp; Back End Dev', '&nbsp; 2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    technologies: ['html', 'css', 'javascript'],
-    technologies2: ['github', 'ruby', 'Bootstrap'],
-    image: {
-      mainImg: 'images/desktop-last.png',
-      counter: './images/Counter.png',
-      liveIcon: './images/see-live.png',
-      sourceIcon: './images/see-source.png',
+    datas: {
+      author: 'Uber',
+      role: 'Lead Developer',
+      year: '2018',
     },
-    butn1: 'Seelive',
-    butn2: 'See Source',
-    cancel: '&times;',
-    navigation: {
-      live: ' https://brainskev.github.io/setup-and-mobile-version-skeleton/',
-      source: 'https://github.com/brainskev/setup-and-mobile-version-skeleton',
-    },
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...........",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
+    image: 'images/snapshot2.png',
+    liveLink: 'See live',
+    sourceLink: 'See Source',
   },
 ];
 
-const mainbody  = document.querySelector('body');
-const buttonOne = document.getElementById('cardone')
-const btn = 'cardOne'
-
-buttonOne.addEventListener('click',()=>{
-  const main = document.createElement('div');
-  main.className='mainpopup';
-  const popup = document.createElement('div');
-  popupCards.forEach((object) => {
-    console.log(object.id)
-    if (btn === object.id) {
-      console.log(object.id)
-      main.innerHTML = `<div id="${object.id}">
-       <div class="pop-head">
-         <h2 class="cardheading">
-         <span class="closeBtn">&times</span>
-         ${object.title}
-         </h2>
-       </div>
-       <ul class="education">
-         <li class="cano">
-           ${object.education[0]}
-         </li>
-         <li> <img src="${object.image.counter}" alt="counter image">${object.education[1]}</li>
-         <li> <img src="${object.image.counter}" alt="counter image">${object.education[2]}</li>
-       </ul>
-       <div>
-         <img class="pop-img" src="${object.image.mainImg}" alt="Snapshoot Portfolio image">
-       <div>
-         <div class="pop-bottom">
-           <p class="pop-para">
-             ${object.description}
-           </p>
-           <div class="sect-butns">
-             <div>
-               <ul class="tech javaht">
-                 <li>
-                     ${object.technologies[0]}
-                 </li>
-                 <li>
-                     ${object.technologies[1]}
-                 </li>
-                 <li>
-                     ${object.technologies[2]}
-                 </li>
-             </ul>
-             <ul class="used-lang bootrap">
-                 <li>
-                     ${object.technologies2[0]}
-                 </li>
-                 <li>
-                     ${object.technologies2[1]}
-                 </li>
-                 <li>
-                     ${object.technologies2[2]}
-                 </li>
-             </ul>
-             </div>
-             <hr class="single-line">
-             <nav class="pop-nav">
-             <a class="navii1" href="${object.navigation.live}" target="_blank">
-               <button class="pop-btn btn1 butz" type="button">
-               ${object.butn1}
-                 <img class="butz" src="${object.image.liveIcon}" alt="live-icon">
-               </button>
-             </a>
-             <a class="navii2" href="${object.navigation.source}" target="_blank">
-               <button class="pop-btn btn2 butz"  type="button">
-               ${object.butn2}
-               <img class="butz" src="${object.image.sourceIcon}" alt="github-icon">
-               </button>
-             </a>
-             </nav>
-           </div>
-         </div>
-       </div>
-      </div>
-     </div>`;
+const btns = document.querySelectorAll('.btn');
+const bgModal = document.querySelector('.bg-modal');
+function popUp(index) {
+  const {
+    title, datas, description, skills, image,
+  } = popupCards[index];
+  const skillsHtml = skills.map((s) => `<li class="tag html-tag">${s}</li>`).join('');
+  bgModal.innerHTML = `
+  <div class = "modal-content">
+        <div class="modal-header">
+          <h2 class="title">${title}</h3>
+          <span class="close-button">+</span>
+        </div>
+        <ul class = "frame frame-${(index === 0 || index % 2 === 0) ? '1' : '2'}">
+          <li class = "list-item author">${datas.author}</li>
+          <li class = "list-item role">${datas.role}</li>
+          <li class = "list-item year">${datas.year}</li>
+        </ul>
+        <img src="${image}" alt="first-project" class="snapshotdesktop1"/>
+        <div class = "btm-content">
+          <div class = "descr-1">
+            <p class="primary-text2">
+            ${description}
+            </p>
+          </div>
+          <div>
+            <ul class="tags">
+              ${skillsHtml}
+            </ul>
+            <div class="buttons">
+              <button type ="button" class="live-btn"> See Live <i class="fas fa-external-link-alt"></i></button>
+              <button type ="button" class="live-btn"> See Source <i class="fab fa-github"></i></button>
+            </div>
+          </div>
+        </div>
+  </div>
+  `;
+  bgModal.style.display = 'flex';
+  bgModal.addEventListener('click', (event) => {
+    const { target: { classList } } = event;
+    if (classList.contains('bg-modal')) {
+      document.querySelector('.bg-modal').style.display = 'none';
     }
-  }
-  );
-  //load content onto main
-  main.appendChild(popup);
-  mainbody.appendChild(main);
-
-  //close button
-  const close = document.querySelector('.closeBtn');
-  close.addEventListener('click',()=>{
-    mainbody.removeChild(main);
-  })
+  });
+  document.querySelector('.close-button').addEventListener('click', () => {
+    document.querySelector('.bg-modal').style.display = 'none';
+  });
+}
+btns.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    popUp(index);
+  });
 });
