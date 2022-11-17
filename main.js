@@ -227,7 +227,7 @@ form.addEventListener('submit', (e) => {
 
 //Portfolio: preserve data in the browser
 const nameData = document.querySelector('#name');
-const messageData = document.querySelector('#message');
+const messageData = document.querySelector('#text');
 const emptyObject= {};
 //Amend the code that i sent you on whatsapp and place it below here
 
