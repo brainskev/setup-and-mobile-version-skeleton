@@ -494,6 +494,7 @@ h2.title {
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .modal-content {
@@ -797,20 +798,6 @@ footer {
   border-top-left-radius: 100px;
   padding-top: 114px;
   margin-bottom: 10px;
-}
-
-.error {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
-}
-
-.error.active {
-  padding: 0.4em;
 }
 
 .inner-div {
@@ -1616,20 +1603,6 @@ button:active {
     justify-content: center;
   }
 
-  .error {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #fff;
-  }
-
-  .error.active {
-    padding: 0.3em;
-  }
-
   .contact-title {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1730,4 +1703,18 @@ button:active {
   .shape {
     display: none;
   }
+}
+
+.error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(194, 27, 27);
+}
+
+.error.active {
+  padding: 0.4em;
 }
