@@ -68,7 +68,7 @@ const cards = [
 const works = document.querySelector('#Portfolio');
 function cardsBuilder(card, index) {
   const {
-    id,image, title, datas, description, skills,
+    id, image, title, datas, description, skills,
   } = card;
   const skillsHtml = skills.map(
     (s) => `<li class = "tag html-tag">${s}</li>`,
