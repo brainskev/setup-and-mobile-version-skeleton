@@ -1704,20 +1704,7 @@ button:active {
     display: none;
   }
 }
-/* coding partner styling */
-.mainpopup{
-  width:80%;
-  height: 60%;
-  position: fixed;
-  top: 77px;;
-  bottom: 337px;
-  background: rgba(255, 255, 255, 100%);
-  display: flex;
-  justify-content: center;
-  z-index: 100;
-}
 
-/* Add styling for the error message */
 .error {
   font-family: "Poppins", sans-serif;
   font-style: normal;
