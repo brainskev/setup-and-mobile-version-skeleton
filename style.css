@@ -494,6 +494,7 @@ h2.title {
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .modal-content {
@@ -505,6 +506,7 @@ h2.title {
   box-sizing: border-box;
   border-radius: 16px;
   margin: 0 auto;
+ 
 }
 
 .modal-header {
