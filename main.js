@@ -28,7 +28,6 @@ const cards = [
     skills: ['html', 'css', 'javascript', 'GitHub'],
   },
   {
-   
     id: 'cardtwo',
     image: 'images/snapshot4.png',
     title: 'Multi-Post Stories',
@@ -98,7 +97,6 @@ function cardsBuilder(card, index) {
 cards.forEach((card, index) => {
   cardsBuilder(card, index);
 });
-
 
 const popupCards = [
   {
