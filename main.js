@@ -224,3 +224,12 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+//Portfolio: preserve data in the browser
+const nameData = document.querySelector('#name');
+const messageData = document.querySelector('#message');
+const emptyObject= {};
+//Amend the code that i sent you on whatsapp and place it below here
+
+// Accessing data and loading it on the page
+const acquire = JSON.parse(localStorage.getItem('object'));
