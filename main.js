@@ -286,3 +286,18 @@ buttonOne.addEventListener('click',()=>{
     mainbody.removeChild(main);
   })
 });
+
+
+const [form] = document.getElementsByClassName('contact-form');
+const error = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  const { email } = form.elements;
+  const message = [];
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    message.push('Email field has to be in lower case!!');
+  } 
+  if (message.length > 0) { error.innerText = message.join(', '); } else {
+    form.submit();
+  }
+});
