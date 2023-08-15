@@ -801,20 +801,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.error {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
-}
-
-.error.active {
-  padding: 0.4em;
-}
-
 .inner-div {
   padding-top: 80px;
   margin-right: 24px;
@@ -1618,20 +1604,6 @@ button:active {
     justify-content: center;
   }
 
-  .error {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #fff;
-  }
-
-  .error.active {
-    padding: 0.3em;
-  }
-
   .contact-title {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1732,4 +1704,18 @@ button:active {
   .shape {
     display: none;
   }
+}
+
+.error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(194, 27, 27);
+}
+
+.error.active {
+  padding: 0.4em;
 }

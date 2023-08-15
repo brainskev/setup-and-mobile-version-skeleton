@@ -5,6 +5,7 @@ menu.addEventListener('click', () => {
   navigation.classList.toggle('nav-toggle');
 });
 
+
 navigation.addEventListener('click', (event) => {
   const { target } = event;
   if (target.nodeName === 'NAV' || target.nodeName === 'DIV') { navigation.classList.remove('nav-toggle'); }
@@ -16,6 +17,7 @@ window.addEventListener('scroll', () => {
 
 const cards = [
   {
+    
     id: 'cardone',
     image: 'images/capstone_desktop.PNG',
     title: 'Tonic',
@@ -40,6 +42,7 @@ const cards = [
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
   },
   {
+    
     id: 'cardthree',
     image: 'images/snapshot1.png',
     title: 'Facebook 360',
@@ -52,6 +55,7 @@ const cards = [
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
   },
   {
+    
     id: 'cardfour',
     image: 'images/snapshot2.png',
     title: 'Uber Navigation',
@@ -94,6 +98,7 @@ function cardsBuilder(card, index) {
   </div>
   `;
 }
+
 cards.forEach((card, index) => {
   cardsBuilder(card, index);
 });
@@ -205,4 +210,22 @@ btns.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     popUp(index);
   });
+});
+
+const [form] = document.getElementsByClassName('contact-form');
+const error = document.querySelector('.error');
+const validEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+form.addEventListener('submit', (e) => {
+  const { email } = form.elements;
+  const message = [];
+  if (email.value !== mail.value.toLowerCase()) {
+    e.preventDefault();
+    message.push('Email field has to be in lower case!!');
+  } else if (!validEmail.test(email.value)) {
+    e.preventDefault();
+    message.push('Email provided should be valid!!');
+  }
+  if (message.length > 0) { error.innerText = message.join(', '); } else {
+    form.submit();
+  }
 });

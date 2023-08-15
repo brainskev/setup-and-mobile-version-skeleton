@@ -9,16 +9,19 @@ This microverse project is the first step to building my personal portfolio proj
 - HTML
 - CSS
 
-
+## Live demo : 
+- link: https://brainskev.github.io/setup-and-mobile-version-skeleton/
 
 
 ## Authors
 
 👤 **Kelvin Kaviku**
 
+
 - GitHub: [@githubhandle](https://github.com/brainskev)
 - Twitter: [@twitterhandle](https://twitter.com/kevin_ngotho?s=09)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-kaviku-5178001a6)
+
 
 
 ## 🤝 Contributing
